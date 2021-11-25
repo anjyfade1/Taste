@@ -1,0 +1,19 @@
+.sideDrawer{
+    position: fixed;
+    width: 300px;
+    max-width: 70%;
+    height: 100%;
+    right: 0px;
+    top: 0;
+    z-index: 200;
+    background-color: #FFC42B;
+    transition: transform 0.3s ease-out;
+} 
+
+.open{
+    transform: translateX(0);
+}
+
+.close{
+    transform: translateX(100%);
+}

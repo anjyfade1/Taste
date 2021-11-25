@@ -1,0 +1,97 @@
+.contact {
+    background-color: rgba(241, 198, 68, 0.06);
+    border-top-left-radius: 20%;
+    border-top-right-radius: 20%;
+    padding: 60px 180px 60px;
+    color: #282B30;
+}
+
+.contact-title{
+    text-align: center;
+    text-transform: uppercase;
+    word-spacing: 5px;
+    letter-spacing: 5px;
+    padding: 0 0 20px;
+    color: #282B30;
+}
+
+.contact-details{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.food{
+    width: 100%;
+}
+
+.food img{
+    width: 50%;
+}
+
+.contact-left{
+    padding: 0 120px 0 0;
+}
+
+
+
+@media (max-width: 1140px){
+    
+    .contact-title h1{
+        font-size: 20px; 
+        word-spacing: 5px;
+        letter-spacing: 5px;
+        padding: 0 0 20px;
+    }
+
+    .contact-left{
+        padding: 0px;
+    }
+
+    .contact-left h1{
+        font-size: 20px;
+    }
+
+    .contact-left p{
+        font-size: 15px;
+    }
+
+    .contact-right{
+        padding: 0 0 0 60px;
+    }
+}
+
+
+@media (max-width: 1024px){
+
+    .contact {
+        padding: 60px 100px 60px;
+    }
+
+}
+
+@media (max-width: 900px){
+    .contact {      
+        padding: 60px 50px 60px;
+    }
+    
+    .contact-details{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        flex: 100%;
+        text-align: center;
+    }
+
+    .contact-right{
+        padding: 0px;
+    }
+}
+
+@media (max-width: 600px){
+    .contact-right{
+        padding: 0px;
+        margin: 0px;
+    }
+}

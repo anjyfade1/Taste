@@ -1,0 +1,132 @@
+.button{
+    background-color:#FE724E;
+    color: white;
+    outline: none;
+    border-radius: 30px;
+    height: 50px;
+    width: 200px;
+    border: none;
+    cursor:pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.exit-image{
+    width: 20%;
+    border-radius: 50%;
+    background-color: #fff;
+    padding: 5px;
+}
+
+.exit-image img{
+    width: 80%;
+}
+
+
+@media (max-width: 1140px){
+
+    .button{
+        border-radius: 30px;
+        height: 50px;
+        width: 150px;
+        font-size: 12px;
+    }
+
+    .exit-image img{
+        width: 70%;
+    }
+}
+
+
+@media (max-width: 1024px){
+    .button{
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

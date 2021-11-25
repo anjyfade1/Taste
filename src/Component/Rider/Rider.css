@@ -1,0 +1,88 @@
+.Rider{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 60px 180px 60px;
+    color: #282B30;
+}
+
+.Rider-span{
+    color: #FE724E;
+}
+
+.Rider-details{
+    padding: 0 120px 0 0;
+}
+
+.Rider-details h1{
+    font-size: 54px;
+    font-weight: bolder;
+}
+
+.Rider-image img{
+    width: 120%;
+}
+
+.Rider-button{
+    padding: 20px 0;
+}
+
+
+@media (max-width: 1140px){
+    
+    .Rider-details h1{
+        font-size: 34px;
+    }
+
+    .Rider-details p{
+        font-size: 15px;
+        line-height: 25px;
+    }
+}
+
+
+@media (max-width: 1024px){
+    
+    .Rider{
+        padding: 60px 100px 60px;
+    }
+    
+}
+
+@media (max-width: 900px){
+
+    .Rider{
+        flex-wrap: wrap;
+        flex: 100%;
+        text-align: center;
+    }
+
+    .Rider-details{
+        text-align: center;
+        padding: 0px;
+    }
+    
+    .Rider-button{
+        width: 25%;
+        margin: auto;
+    }
+
+    .Rider-image{
+        padding: 50px 0 0 ;
+    }
+
+    .Rider-image img{
+        width: 60%;
+    }
+}
+
+@media (max-width: 600px){
+    .Rider{
+        padding: 60px 50px 60px;
+    }
+
+    .Rider-button{
+        width: 55%;
+        margin: auto;
+    }
+}

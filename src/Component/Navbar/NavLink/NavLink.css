@@ -1,0 +1,49 @@
+
+.navlink{
+    display: flex;
+    align-items: center;
+}
+
+.navlink li{
+    list-style-type: none;
+}
+
+.navlink li a{
+    text-decoration: none;
+    color: #000;
+    padding: 0 20px;
+}
+
+.mob-con{
+    display: none;
+}
+
+
+@media (max-width: 1024px){
+    /* .mob-con{
+        display: flex;
+        flex-wrap: wrap;
+        flex: 100%;
+        padding: 20px 0;
+    } */
+
+    .navlink{
+        display: block;
+        padding: 50px 0;
+        text-align: center;
+    }
+
+    .navlink li{
+        margin: 50px 0;
+    }
+
+    .navlink li a{
+        text-decoration: none;
+        color: #fff;
+        font-weight: 500;
+        margin: 50px 0;
+        text-align: center;
+    }
+    
+
+}
