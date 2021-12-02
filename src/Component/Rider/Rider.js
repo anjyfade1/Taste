@@ -14,7 +14,9 @@ const Rider = () => {
                 <p>
                 Looking for a new way to have a direct link with customers regularly? Here is a perfect way to make good use of your transport services.                </p>
                 <div className='Rider-button'>
+                    <a href = 'https://forms.gle/WuXrcHLy6huZYQiD8'>
                     <Button name='JOIN THE CLAN'/>
+                    </a>
                 </div>
             </div>
             <div className='Rider-image'>

@@ -6,6 +6,10 @@
     color: #282B30;
 }
 
+a{
+    text-decoration: none;
+}
+
 .topic-span{
     color: #FE724E;
 }

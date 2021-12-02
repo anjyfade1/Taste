@@ -15,7 +15,9 @@ const Hero = () => {
                 The responsibilities of being a university student is overwhelming enough. Proper feeding needn’t be a problem as well. 
                 </p>
                 <div className='hero-button'>
+                    <a href='https://forms.gle/2r41PbJTgpAHLYrUA'>
                     <Button name='JOIN THE CLAN'/>
+                    </a>
                 </div>
             </div>
             <div className='hero-image'>
