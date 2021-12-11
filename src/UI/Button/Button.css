@@ -4,7 +4,7 @@
     outline: none;
     border-radius: 30px;
     height: 50px;
-    width: 200px;
+    width: 250px;
     border: none;
     cursor:pointer;
     display: flex;
@@ -12,6 +12,14 @@
     justify-content: space-evenly;
     font-weight: 600;
     font-size: 16px;
+}
+
+.button a{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    color: inherit;
 }
 
 .exit-image{

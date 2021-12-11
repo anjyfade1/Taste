@@ -110,6 +110,11 @@
   .vendor {
     padding: 60px 50px 60px;
   }
+
+  .vendor-image img {
+    width: 90%;
+  }
+
   .vendor-button{
       width: 55%;
       margin: auto;

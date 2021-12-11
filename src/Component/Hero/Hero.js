@@ -9,15 +9,15 @@ const Hero = () => {
         <div className = 'hero'>
             <div className='hero-details'>
                 <h1 className='topic'>
-                <span className='topic-span'>Tired & hungry?</span><br/>Order food and get it instantly.
+                <span className='topic-span'>Dear Student</span><br/>Tired & hungry? <br/>Order food and get it instantly.
                 </h1>
                 <p>
                 The responsibilities of being a university student is overwhelming enough. Proper feeding needn’t be a problem as well. 
                 </p>
                 <div className='hero-button'>
-                    <a href='https://forms.gle/2r41PbJTgpAHLYrUA'>
-                    <Button name='JOIN THE CLAN'/>
-                    </a>
+                   
+                    <Button name='JOIN THE CLAN' link='https://forms.gle/2r41PbJTgpAHLYrUA'/>
+                   
                 </div>
             </div>
             <div className='hero-image'>

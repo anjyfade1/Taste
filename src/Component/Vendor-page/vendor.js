@@ -22,9 +22,7 @@ const Vendor = () => {
                 Don’t let the hassle of running a business suck the life out of you.
                 </p>
                 <div className='vendor-button'>
-                    <a href= 'https://docs.google.com/forms/d/e/1FAIpQLSc51pfgpeNjKNrwd4H1eKfPGvm0Jf8__8e7y0j_TeLMuDZRzA/viewform?usp=sf_link'>
-                    <Button name='JOIN THE CLAN'/>
-                    </a>
+                    <Button name='BECOME A FOOD VENDOR' link='https://docs.google.com/forms/d/e/1FAIpQLSc51pfgpeNjKNrwd4H1eKfPGvm0Jf8__8e7y0j_TeLMuDZRzA/viewform?usp=sf_link'/>
                 </div>
             </div>
         </div>
