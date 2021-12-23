@@ -19,13 +19,14 @@
   font-weight: bolder;
 }
 
+.why-image{
+  width: 100%;
+}
+
 .why-image img {
   width: 180%;
 }
 
-.why-button {
-  padding: 20px 0;
-}
 
 
 @media (max-width: 1140px){

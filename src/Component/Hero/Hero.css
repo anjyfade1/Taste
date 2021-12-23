@@ -15,7 +15,7 @@ a{
 }
 
 .hero-details{
-    padding: 0 100px 0 0;
+    padding: 0 50px 0 0;
 }
 
 .hero-details h1{
@@ -23,8 +23,12 @@ a{
     font-weight: bolder;
 }
 
+.hero-image{
+    width: 100%;
+}
+
 .hero-image img{
-    width: 120%;
+    width: 100%;
 }
 
 .hero-button{
@@ -90,7 +94,7 @@ a{
         width: 90%;
     }
     .hero-button{
-        width: 55%;
+        width: 45%;
         margin: auto;
     }
 }

@@ -45,7 +45,7 @@
     }
 
     .hamburger{
-        display: flex;
+        display: none;
     }
 
     .nav-logo{

@@ -11,7 +11,7 @@
 }
 
 .Rider-details{
-    padding: 0 120px 0 0;
+    padding: 0 60px 0 0;
 }
 
 .Rider-details h1{
@@ -19,8 +19,12 @@
     font-weight: bolder;
 }
 
+.Rider-image{
+    width: 100%;
+}
+
 .Rider-image img{
-    width: 120%;
+    width: 100%;
 }
 
 .Rider-button{
@@ -86,7 +90,7 @@
     }
 
     .Rider-button{
-        width: 55%;
+        width: 45%;
         margin: auto;
     }
 }

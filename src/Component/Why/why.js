@@ -1,7 +1,6 @@
 import React from "react";
 import './why.css';
-import Button from "../../UI/Button/Button";
-import WhyImage from '../../Assets/logistics.svg';
+import WhyImage from '../../Assets/logistics.png';
 
 
 const Why = () => {

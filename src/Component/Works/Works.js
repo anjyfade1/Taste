@@ -1,8 +1,8 @@
 import React from "react";
 import './Works.css';
-import Search from '../../Assets/search.svg';
-import Cart from '../../Assets/cart.svg';
-import Deliver from '../../Assets/deliver.svg';
+import Search from '../../Assets/search.png';
+import Cart from '../../Assets/cart.png';
+import Deliver from '../../Assets/deliver.png';
 
 const Works = () =>{
     return(
@@ -18,8 +18,8 @@ const Works = () =>{
                     </div>
                     <div className='sear'>
 
-                    <h2>Search </h2>
-                    <p>Choose any food of your choice from our vast variety of food vendors.</p>
+                        <h2>Search </h2>
+                        <p>Choose any food of your choice from our vast variety of food vendors.</p>
                     </div>
                 </div>
                 <div className='works-content-2'>

@@ -1,7 +1,7 @@
 import React from "react";
 import './Rider.css';
 import Button from "../../UI/Button/Button";
-import RiderImage from '../../Assets/Rider-Image.svg';
+import RiderImage from '../../Assets/Rider-Image.png';
 
 
 const Rider = () => {

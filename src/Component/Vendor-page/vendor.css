@@ -26,6 +26,10 @@
   font-weight: bolder;
 }
 
+.vendor-image{
+  width: 100%;
+}
+
 .vendor-image img {
   width: 100%;
 }
@@ -116,7 +120,7 @@
   }
 
   .vendor-button{
-      width: 55%;
+      width: 45%;
       margin: auto;
   }
 }

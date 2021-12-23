@@ -1,7 +1,7 @@
 import React from "react";
 import './vendor.css';
 import Button from "../../UI/Button/Button";
-import VendorImage from '../../Assets/Vendor-Image.svg';
+import VendorImage from '../../Assets/Vendor-Image.png';
 
 
 const Vendor = () => {
